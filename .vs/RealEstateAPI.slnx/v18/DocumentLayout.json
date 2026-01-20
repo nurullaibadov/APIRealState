@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Backend\\RealEstateAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D5C8DC-C735-10E0-DF76-15CFC39EEAF0}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|c:\\backend\\realestateapi\\realestateapi.infrastructure\\migrations\\20260120182829_addtbssssssssssssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D5C8DC-C735-10E0-DF76-15CFC39EEAF0}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|solutionrelative:realestateapi.infrastructure\\migrations\\20260120182829_addtbssssssssssssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +18,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "RealEstateAPI.Domain\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T11:01:10.628Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\Program.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Program.cs",
+              "RelativeToolTip": "RealEstateAPI.API\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T18:28:51.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260120182829_addtbssssssssssssssssssssss.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
+              "RelativeToolTip": "RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T18:28:30.881Z",
+              "EditorCaption": ""
             }
           ]
         }

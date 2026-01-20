@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace RealEstateAPI.Domain.Interfaces.Repositories
 {
-    internal class IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
+        IUserRepository Users { get; }
+        IPropertyRepository Properties { get; }
+        IPropertyImageRepository PropertyImages { get; }
+        IFavoriteRepository Favorites { get;  } 
+        IPaymentRepository Payments { get;  }
+        IContactMessageRepository ContactMessages { get;  }
+        Task<int> SaveChangesAsync();
+        Task BeginTransactionAsync();
+        Task CommitTransactionAsync();
+        Task RollbackTransactionAsync();
     }
 }

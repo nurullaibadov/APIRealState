@@ -13,7 +13,27 @@ namespace RealEstateAPI.Domain.Interfaces.Repositories
         Task<T?> GetByIdAsync(int id);
         Task<IEnumerable<T>> GetAsync(Expression<Func<T, bool>> predicate);
         Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> predicate);
+        Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate);
+        Task<int> CountAsync();
+        Task<int>  CountAsync(Expression<Func<T, bool>> predicate);
+        Task AddAsync(T entity);
+        Task AddRangeAsync(IEnumerable<T> entities);
+        void Update(T entity);
+        void Delete(T entity);
+        Task DeleteAsync(int id);
+        void DeleteRange(IEnumerable<T> entities);
 
-        Task<bool> Exists
+        Task<IEnumerable<T>> GetWithIncludesAsync(
+             Expression<Func<T, bool>>? predicate = null,
+             params string[] includes);
+
+       
+        Task<(IEnumerable<T> Items, int TotalCount)> GetPagedAsync(
+            int pageNumber,
+            int pageSize,
+            Expression<Func<T, bool>>? predicate = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null);
+
+
     }
 }

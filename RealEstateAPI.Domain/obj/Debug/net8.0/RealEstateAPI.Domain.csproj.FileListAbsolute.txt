@@ -9,3 +9,4 @@ C:\Backend\RealEstateAPI\RealEstateAPI.Domain\obj\Debug\net8.0\RealEstateAPI.Dom
 C:\Backend\RealEstateAPI\RealEstateAPI.Domain\obj\Debug\net8.0\refint\RealEstateAPI.Domain.dll
 C:\Backend\RealEstateAPI\RealEstateAPI.Domain\obj\Debug\net8.0\RealEstateAPI.Domain.pdb
 C:\Backend\RealEstateAPI\RealEstateAPI.Domain\obj\Debug\net8.0\ref\RealEstateAPI.Domain.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Domain\obj\Debug\net8.0\RealEstateAPI.Domain.sourcelink.json

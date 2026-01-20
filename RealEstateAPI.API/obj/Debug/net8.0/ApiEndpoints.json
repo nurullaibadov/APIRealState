@@ -1,0 +1,62 @@
+[
+  {
+    "ContainingType": "RealEstateAPI.API.Controllers.TestController",
+    "Method": "CreateProperty",
+    "RelativePath": "api/Test/create-property",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstateAPI.API.Controllers.TestController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Test/create-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstateAPI.API.Controllers.TestController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/Test/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstateAPI.API.Controllers.TestController",
+    "Method": "GetAllProperties",
+    "RelativePath": "api/Test/properties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstateAPI.API.Controllers.TestController",
+    "Method": "TransactionTest",
+    "RelativePath": "api/Test/transaction-test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstateAPI.API.Controllers.TestController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Test/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

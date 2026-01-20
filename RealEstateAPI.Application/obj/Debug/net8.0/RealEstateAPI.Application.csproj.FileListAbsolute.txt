@@ -13,3 +13,4 @@ C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAP
 C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\refint\RealEstateAPI.Application.dll
 C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.pdb
 C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\ref\RealEstateAPI.Application.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.sourcelink.json

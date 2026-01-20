@@ -17,3 +17,4 @@ C:\Backend\RealEstateAPI\RealEstateAPI.Infrastructure\obj\Debug\net8.0\refint\Re
 C:\Backend\RealEstateAPI\RealEstateAPI.Infrastructure\obj\Debug\net8.0\RealEstateAPI.Infrastructure.pdb
 C:\Backend\RealEstateAPI\RealEstateAPI.Infrastructure\obj\Debug\net8.0\RealEstateAPI.Infrastructure.genruntimeconfig.cache
 C:\Backend\RealEstateAPI\RealEstateAPI.Infrastructure\obj\Debug\net8.0\ref\RealEstateAPI.Infrastructure.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Infrastructure\obj\Debug\net8.0\RealEstateAPI.Infrastructure.sourcelink.json
