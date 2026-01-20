@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RealEstateAPI.Domain.Interfaces.Repositories
 {
-     public interface IPropertyImageRepository
+     public interface IPropertyImageRepository : IGenericRepository<PropertyImage>
     {
         Task<IEnumerable<PropertyImage>> GetImagesByPropertyIdAsync(int propertyId);
         Task<PropertyImage?> GetCoverImageByPropertyIdAsync(int propertyId);
