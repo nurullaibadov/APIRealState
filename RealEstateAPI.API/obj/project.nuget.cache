@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G+HKV3zOR5Q=",
+  "dgSpecHash": "LzrwMlebUgE=",
   "success": true,
   "projectFilePath": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\RealEstateAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ibadn\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
     "C:\\Users\\ibadn\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\ibadn\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ibadn\\.nuget\\packages\\bouncycastle.cryptography\\2.6.1\\bouncycastle.cryptography.2.6.1.nupkg.sha512",
     "C:\\Users\\ibadn\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\ibadn\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

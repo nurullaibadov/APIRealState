@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RealEstateAPI.Application.DTOs.Auth
+{
+    public class ResetPasswordDto
+    {
+        /// <summary>
+        /// Email'den gelen token
+        /// </summary>
+        [Required(ErrorMessage = "Token is required")]
+        public string Token { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Yeni şifre
+        /// </summary>
+        [Required(ErrorMessage = "Password is required")]
+        [StringLength(100, MinimumLength = 8, ErrorMessage = "Password must be at least 8 characters")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$",
+            ErrorMessage = "Password must contain at least one uppercase letter, one lowercase letter, and one number")]
+        public string NewPassword { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Yeni şifre tekrar
+        /// </summary>
+        [Required(ErrorMessage = "Confirm password is required")]
+        [Compare("NewPassword", ErrorMessage = "Passwords do not match")]
+        public string ConfirmNewPassword { get; set; } = string.Empty;
+    }
+}

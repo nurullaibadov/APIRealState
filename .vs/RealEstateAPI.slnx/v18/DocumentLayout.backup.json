@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00D5C8DC-C735-10E0-DF76-15CFC39EEAF0}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|c:\\backend\\realestateapi\\realestateapi.infrastructure\\migrations\\20260120182829_addtbssssssssssssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00D5C8DC-C735-10E0-DF76-15CFC39EEAF0}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|solutionrelative:realestateapi.infrastructure\\migrations\\20260120182829_addtbssssssssssssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\realestateapi.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\realestateapi.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5840EB-25C1-F5EA-DC4D-D3A6C1A11F11}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00D5C8DC-C735-10E0-DF76-15CFC39EEAF0}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|c:\\backend\\realestateapi\\realestateapi.infrastructure\\migrations\\20260120201058_addtbsssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D5C8DC-C735-10E0-DF76-15CFC39EEAF0}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|solutionrelative:realestateapi.infrastructure\\migrations\\20260120201058_addtbsssssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +50,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RealEstateAPI.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T20:15:43.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RealEstateAPI.API.http",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\RealEstateAPI.API.http",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\RealEstateAPI.API.http",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\RealEstateAPI.API.http",
+              "RelativeToolTip": "RealEstateAPI.API\\RealEstateAPI.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-20T20:13:00.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\appsettings.json",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\appsettings.json",
+              "RelativeToolTip": "RealEstateAPI.API\\appsettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-20T20:12:54.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Program.cs",
               "RelativeDocumentMoniker": "RealEstateAPI.API\\Program.cs",
               "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Program.cs",
               "RelativeToolTip": "RealEstateAPI.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAowMoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T18:28:51.425Z",
+              "WhenOpened": "2026-01-20T20:12:23.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260120182829_addtbssssssssssssssssssssss.cs",
-              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
-              "RelativeDocumentMoniker": "RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
-              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
-              "RelativeToolTip": "RealEstateAPI.Infrastructure\\Migrations\\20260120182829_addtbssssssssssssssssssssss.cs",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "RealEstateAPI.API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T20:11:25.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\Middleware\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "RealEstateAPI.API\\Middleware\\GlobalExceptionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T18:28:30.881Z",
+              "WhenOpened": "2026-01-20T20:11:24.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260120201058_addtbsssssssssssss.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120201058_addtbsssssssssssss.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Infrastructure\\Migrations\\20260120201058_addtbsssssssssssss.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120201058_addtbsssssssssssss.cs",
+              "RelativeToolTip": "RealEstateAPI.Infrastructure\\Migrations\\20260120201058_addtbsssssssssssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T20:10:59.405Z",
               "EditorCaption": ""
             }
           ]

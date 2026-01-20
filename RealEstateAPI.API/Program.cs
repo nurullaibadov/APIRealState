@@ -1,17 +1,45 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using RealEstateAPI.Application.Mappings;
 using RealEstateAPI.Domain.Interfaces.Repositories;
 using RealEstateAPI.Infrastructure.Data;
+using RealEstateAPI.Infrastructure.Helpers;
 using RealEstateAPI.Infrastructure.Repositories;
+using RealEstateAPI.Infrastructure.Services;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// ============================================================
+// JWT SETTINGS – TEK YERDEN OKU (ÇOK ÖNEMLİ)
+// ============================================================
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+var jwtSection = builder.Configuration.GetSection("JwtSettings");
+
+if (!jwtSection.Exists())
+    throw new Exception("JwtSettings section not found in configuration.");
+
+var jwtSecret = jwtSection["SecretKey"];
+var jwtIssuer = jwtSection["Issuer"];
+var jwtAudience = jwtSection["Audience"];
+var jwtExpiration = jwtSection["ExpirationInMinutes"];
+
+if (string.IsNullOrWhiteSpace(jwtSecret))
+    throw new Exception("JwtSettings:SecretKey is missing.");
+
+if (string.IsNullOrWhiteSpace(jwtIssuer))
+    throw new Exception("JwtSettings:Issuer is missing.");
+
+if (string.IsNullOrWhiteSpace(jwtAudience))
+    throw new Exception("JwtSettings:Audience is missing.");
+
+if (string.IsNullOrWhiteSpace(jwtExpiration))
+    throw new Exception("JwtSettings:ExpirationInMinutes is missing.");
+
+// ============================================================
+// DATABASE
+// ============================================================
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
@@ -23,83 +51,141 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         mySqlOptions =>
         {
             mySqlOptions.MigrationsAssembly("RealEstateAPI.Infrastructure");
-
             mySqlOptions.CommandTimeout(60);
-
-            mySqlOptions.EnableRetryOnFailure(
-                maxRetryCount: 5,
-                maxRetryDelay: TimeSpan.FromSeconds(30),
-                errorNumbersToAdd: null
-            );
-        }
-    );
+            mySqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(30), null);
+        });
 
     if (builder.Environment.IsDevelopment())
     {
-        options.EnableSensitiveDataLogging(); 
-        options.EnableDetailedErrors(); 
+        options.EnableSensitiveDataLogging();
+        options.EnableDetailedErrors();
     }
 });
 
+// ============================================================
+// DEPENDENCY INJECTION
+// ============================================================
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddSingleton<JwtHelper>(_ =>
+    new JwtHelper(
+        secretKey: jwtSecret!,
+        issuer: jwtIssuer!,
+        audience: jwtAudience!,
+        expirationInMinutes: int.Parse(jwtExpiration!)
+    )
+);
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+builder.Services.AddScoped<IFileService>(provider =>
+{
+    var config = provider.GetRequiredService<IConfiguration>();
+    var uploadSettings = config.GetSection("FileUploadSettings");
+
+    return new FileService(
+        uploadPath: uploadSettings["PropertyImagesPath"]!,
+        maxFileSizeInMB: long.Parse(uploadSettings["MaxFileSizeInMB"]!),
+        allowedExtensions: uploadSettings.GetSection("AllowedExtensions").Get<string[]>()!
+    );
+});
+
+builder.Services.AddScoped<IEmailService>(provider =>
+{
+    var smtp = provider.GetRequiredService<IConfiguration>()
+                       .GetSection("SmtpSettings");
+
+    return new EmailService(
+        host: smtp["Host"]!,
+        port: int.Parse(smtp["Port"]!),
+        username: smtp["Username"]!,
+        password: smtp["Password"]!,
+        fromEmail: smtp["FromEmail"]!,
+        fromName: smtp["FromName"]!,
+        enableSsl: bool.Parse(smtp["EnableSsl"]!)
+    );
+});
+
+// ============================================================
+// JWT AUTHENTICATION (DÜZELTİLDİ)
+// ============================================================
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(jwtSecret!)
+        ),
+
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+
+        ValidIssuer = jwtIssuer,
+        ValidAudience = jwtAudience,
+
+        ClockSkew = TimeSpan.Zero
+    };
+});
+
+builder.Services.AddAuthorization();
+
+// ============================================================
+// CONTROLLERS
+// ============================================================
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        // JSON serialization ayarları
         options.JsonSerializerOptions.ReferenceHandler =
             System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
         options.JsonSerializerOptions.PropertyNamingPolicy =
-            System.Text.Json.JsonNamingPolicy.CamelCase; // camelCase kullan
+            System.Text.Json.JsonNamingPolicy.CamelCase;
     });
 
+// ============================================================
+// CORS
+// ============================================================
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.AllowAnyOrigin()   // Her domain'den istek kabul et
-              .AllowAnyMethod()   // GET, POST, PUT, DELETE hepsi
-              .AllowAnyHeader();  // Her header kabul et
-    });
-
-    // Production için daha güvenli CORS policy:
-    options.AddPolicy("Production", policy =>
-    {
-        policy.WithOrigins("https://www.yourfrontend.com", "https://yourfrontend.com")
+        policy.AllowAnyOrigin()
               .AllowAnyMethod()
-              .AllowAnyHeader()
-              .AllowCredentials(); // Cookie'lere izin ver
+              .AllowAnyHeader();
     });
 });
 
+// ============================================================
+// SWAGGER
+// ============================================================
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    options.CustomSchemaIds(type => type.FullName); // 🔥 ÇÖZÜM
+
+    options.SwaggerDoc("v1", new()
     {
         Title = "Real Estate API",
-        Version = "v1",
-        Description = "Real Estate Management API with Onion Architecture",
-        Contact = new Microsoft.OpenApi.Models.OpenApiContact
-        {
-            Name = "Your Name",
-            Email = "your.email@example.com"
-        }
+        Version = "v1"
     });
 
-    // JWT Authentication için Swagger'a ekle
-    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    options.AddSecurityDefinition("Bearer", new()
     {
-        Description = "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token",
         Name = "Authorization",
-        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
         Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
-        Scheme = "Bearer"
+        Scheme = "Bearer",
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Description = "Bearer {token}"
     });
 
-    options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    options.AddSecurityRequirement(new()
     {
         {
             new Microsoft.OpenApi.Models.OpenApiSecurityScheme
@@ -115,59 +201,35 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+// ============================================================
+// PIPELINE
+// ============================================================
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(); // 👉 /swagger
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseCors("AllowAll");
 
-app.MapControllers();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
-
-app.UseStaticFiles();
 app.MapControllers();
+
+// ============================================================
+// DATABASE MIGRATION
+// ============================================================
+
 using (var scope = app.Services.CreateScope())
 {
-    var services = scope.ServiceProvider;
-    try
-    {
-        var context = services.GetRequiredService<ApplicationDbContext>();
-
-        // Pending migration'ları uygula
-        if (context.Database.GetPendingMigrations().Any())
-        {
-            Console.WriteLine("Applying pending migrations...");
-            context.Database.Migrate();
-            Console.WriteLine("Migrations applied successfully!");
-        }
-        else
-        {
-            Console.WriteLine("No pending migrations.");
-        }
-
-        // Database var mı kontrol et, yoksa oluştur
-        context.Database.EnsureCreated();
-
-        Console.WriteLine("Database connection successful!");
-    }
-    catch (Exception ex)
-    {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred while migrating the database.");
-
-        // Hata durumunda uygulamayı durdur
-        throw;
-    }
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    context.Database.Migrate();
 }
-
 
 app.Run();
