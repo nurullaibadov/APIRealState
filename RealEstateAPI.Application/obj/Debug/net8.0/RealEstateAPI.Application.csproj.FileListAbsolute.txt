@@ -1,0 +1,15 @@
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\bin\Debug\net8.0\RealEstateAPI.Application.deps.json
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\bin\Debug\net8.0\RealEstateAPI.Application.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\bin\Debug\net8.0\RealEstateAPI.Application.pdb
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\bin\Debug\net8.0\RealEstateAPI.Domain.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\bin\Debug\net8.0\RealEstateAPI.Domain.pdb
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.csproj.AssemblyReference.cache
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.AssemblyInfoInputs.cache
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.AssemblyInfo.cs
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.csproj.CoreCompileInputs.cache
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEsta.8849BE0A.Up2Date
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\refint\RealEstateAPI.Application.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\RealEstateAPI.Application.pdb
+C:\Backend\RealEstateAPI\RealEstateAPI.Application\obj\Debug\net8.0\ref\RealEstateAPI.Application.dll

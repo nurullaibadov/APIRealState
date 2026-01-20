@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Backend\\RealEstateAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120092849_addtbsssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RealEstateAPI.Infrastructure\\Migrations\\20260120092849_addtbsssssssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86123A50-EB77-4D3B-BE16-36FD715EAF2C}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86123A50-EB77-4D3B-BE16-36FD715EAF2C}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86123A50-EB77-4D3B-BE16-36FD715EAF2C}|RealEstateAPI.API\\RealEstateAPI.API.csproj|c:\\backend\\realestateapi\\realestateapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86123A50-EB77-4D3B-BE16-36FD715EAF2C}|RealEstateAPI.API\\RealEstateAPI.API.csproj|solutionrelative:realestateapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA28B71-7486-48C6-9177-5DB2C6D23E6A}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|c:\\backend\\realestateapi\\realestateapi.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA28B71-7486-48C6-9177-5DB2C6D23E6A}|RealEstateAPI.Infrastructure\\RealEstateAPI.Infrastructure.csproj|solutionrelative:realestateapi.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\enums\\paymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\enums\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\enums\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|c:\\backend\\realestateapi\\realestateapi.domain\\enums\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE0242-BEE3-47AC-BF9A-B22D918422B2}|RealEstateAPI.Domain\\RealEstateAPI.Domain.csproj|solutionrelative:realestateapi.domain\\enums\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260120092849_addtbsssssssssss.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120092849_addtbsssssssssss.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Infrastructure\\Migrations\\20260120092849_addtbsssssssssss.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Migrations\\20260120092849_addtbsssssssssss.cs",
+              "RelativeToolTip": "RealEstateAPI.Infrastructure\\Migrations\\20260120092849_addtbsssssssssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:28:49.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\appsettings.json",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\appsettings.json",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\appsettings.json",
+              "RelativeToolTip": "RealEstateAPI.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-20T09:20:23.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.API\\Program.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.API\\Program.cs",
+              "RelativeToolTip": "RealEstateAPI.API\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T09:12:28.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RealEstateAPI.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAawHgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:01:49.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\ContactMessage.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\ContactMessage.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\ContactMessage.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA+wBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:46:37.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:43:49.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Favorite.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\Favorite.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Favorite.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\Favorite.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:42:38.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertyImage.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\PropertyImage.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\PropertyImage.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\PropertyImage.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\PropertyImage.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:00:08.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Property.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\Property.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Property.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\Property.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAywDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:24:06.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:19:36.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PaymentType.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Enums\\PaymentType.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PaymentType.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Enums\\PaymentType.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:14:58.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentStatus.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PaymentStatus.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Enums\\PaymentStatus.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PaymentStatus.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Enums\\PaymentStatus.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:14:23.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:13:55.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PropertyStatus.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PropertyStatus.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Enums\\PropertyStatus.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PropertyStatus.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Enums\\PropertyStatus.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:13:08.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertyType.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PropertyType.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Enums\\PropertyType.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Enums\\PropertyType.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Enums\\PropertyType.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:11:06.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "RealEstateAPI.Domain\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Backend\\RealEstateAPI\\RealEstateAPI.Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "RealEstateAPI.Domain\\Entities\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAzwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:09:38.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
