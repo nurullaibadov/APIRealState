@@ -136,3 +136,4 @@ C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Release\net8.0\refint\RealEstateA
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Release\net8.0\RealEstateAPI.API.pdb
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Release\net8.0\RealEstateAPI.API.genruntimeconfig.cache
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Release\net8.0\ref\RealEstateAPI.API.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.API\bin\Release\net8.0\dotnet-tools.json

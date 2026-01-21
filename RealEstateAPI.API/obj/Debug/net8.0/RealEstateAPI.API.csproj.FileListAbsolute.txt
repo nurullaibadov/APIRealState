@@ -127,7 +127,6 @@ C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\staticwebassets.buil
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\RealEsta.E964B8DC.Up2Date
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\RealEstateAPI.API.dll
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\refint\RealEstateAPI.API.dll
@@ -136,3 +135,4 @@ C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\RealEstateAPI.API.ge
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\ref\RealEstateAPI.API.dll
 C:\Backend\RealEstateAPI\RealEstateAPI.API\obj\Debug\net8.0\RealEstateAPI.API.sourcelink.json
 C:\Backend\RealEstateAPI\RealEstateAPI.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Backend\RealEstateAPI\RealEstateAPI.API\bin\Debug\net8.0\dotnet-tools.json
